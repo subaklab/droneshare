@@ -11,44 +11,45 @@ droneshare의 새로운 버전 - built upon the [DroneKit](http://www.dronekit.i
 이 어플리케이션은 AngularJS와 [coffeescript](http://coffeescript.org/)를 이용해서 개발되었다.
 
 
-### Requirements
+### 요구사항
 
-Before we continue make sure your system is running with the latest stable versions of the following packages
+진행하기 전에 시스템이 아래 패키지의 최신 버전에서 동작하는지 확인하라.
 
 - [Nodejs](http://nodejs.org/)
 - [npm](https://www.npmjs.org/)
 - [grunt](http://gruntjs.com/) (Install globaly: ```npm install -g grunt-cli```)
 
-### Getting the source
-you either want to download the latest version or use git to get either our own or your fork of the project.
+### 소스 구하기
+최신 버전을 다운받기를 원하거나 git을 이용해서 얻거나 프로젝트를 fork한다.
 
-to get our repository
+repository 얻기
 
 ```
 git clone https://github.com/diydrones/droneshare.git
 ```
 
-to get your fork
+fork 얻기
 
 ```
 git clone git@github.com:YOUR-USERNAME/droneshare.git
 ```
 
-or finally theres a zip download of the latest version available.
+아니면 마지막으로 최신버전의 zip 파일로 다운 받기
 
 [Download Zip](https://github.com/diydrones/droneshare/archive/master.zip)
 
 
 
-### Installing
+### 설치
 
-To install the app you need to install the packages required for this project, the app has Node package requirements and Bower library packages.
+앱을 설치하기 위해서 이 프로젝트를 위해서 필요한 패키지를 설치해야한다. 이 앱은 Node 패키지와 Bower라이브러리 패키지가 필요하다.
 
-You can find the list of npm packages inside the [packages.js](https://github.com/diydrones/droneshare/blob/master/package.json) file.
+아래 패키지 내에서 npm 패키지의 리스트를 찾을 수 있다. 
+[packages.js](https://github.com/diydrones/droneshare/blob/master/package.json) 파일
 
-The bower list can be found inside the [bower.json](https://github.com/diydrones/droneshare/blob/master/bower.json)
+bower 리스는 아래 링크 내부에서 찾을 수 있다. [bower.json](https://github.com/diydrones/droneshare/blob/master/bower.json)
 
-to install just do
+설치하기 위해서
 
 ```
 npm install
@@ -56,7 +57,7 @@ bower install
 grunt bower:install
 ```
 
-### Running the app
+### 앱을 실행
 
 Configure your web server to the ```dist``` folder on the app and run the **build**, **prod** or **dev** tasks
 
