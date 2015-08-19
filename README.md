@@ -1,14 +1,14 @@
 # Droneshare
 
-Build Status:
+빌드 상태 :
 
 [![Codeship Status for diydrones/droneshare](https://codeship.io/projects/1d6b0730-e382-0131-36da-0e6774a12e5d/status)](https://codeship.io/projects/25456)
 
-The new version of droneshare - built upon the [DroneKit](http://www.dronekit.io/).  Please see our [welcome letter](WELCOME.md).
+droneshare의 새로운 버전 - built upon the [DroneKit](http://www.dronekit.io/).  Please see our [welcome letter](WELCOME.md).
 
-## Developers guide
+## 개발자 가이드
 
-This application is built using AngularJS and [coffeescript](http://coffeescript.org/).
+이 어플리케이션은 AngularJS와 [coffeescript](http://coffeescript.org/)를 이용해서 개발되었다.
 
 
 ### Requirements
